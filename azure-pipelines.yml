@@ -22,7 +22,7 @@ stages:
     steps:
     - - task: Docker@2
         inputs:
-          containerRegistry: 'ItIsrahul docker hub'
+          containerRegistry: 'ItIsrahul Docker Hub'
           repository: 'itisrahul/weatherapi'
           command: 'buildAndPush'
           Dockerfile: '**/Dockerfile'
